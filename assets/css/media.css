@@ -1,0 +1,416 @@
+
+@media (max-width:1199px) {
+    .left-about-content {
+        margin-top:0;
+    }
+    .department .tab-content .tab-pane .department-content {
+        margin-top:1rem;
+    }
+    footer .main-footer .last-footer-list span {
+    margin-right: -1px;
+  } 
+     footer .main-footer .last-footer-list br{
+     display: none;
+  } 
+   
+
+  .header .carousel {
+    display: none;
+}
+.header img{
+    display: none;
+}
+
+}
+@media (max-width:991px){
+    .nav-top {
+       display: none;
+    }
+    
+    .navbar{
+         height: 80px;
+         background-color: white;
+         padding-bottom: 0;
+     }
+     .navbar-toggler {
+     border: none;
+     }
+    
+   .navbar .nav-item a.active {
+    width: fit-content;
+    }
+    .header{
+        background-repeat: no-repeat;
+    }
+    .header .carousel {
+        display: none;
+    }
+    .header img{
+        display: none;
+    }
+    .header .header-content h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .header .header-content p{
+        font-size: 16px;
+        }
+    .header .header-content a{
+      font-size: 14px;
+      line-height: 24px;
+      padding: 13px 25.5px;
+     }
+     .header .container{
+        align-items: center !important;
+    }  
+    .header .header-content{
+        padding-bottom: 0 !important;
+        padding-top: 50px;
+    }
+  /* end header & navbar */
+  .st-iconbox.st-style1 .st-iconbox-text {
+    font-size: 14px;
+  }
+     /*end intro  */
+     .title h2{
+        font-size: 28px;
+        margin-top: -6px;
+        line-height: 34px;
+     }
+    .title-logo::before{
+        width: 6%;
+        left: 53.5%;
+    }
+    .title-logo::after{
+        width: 6%;
+        left:40.5%;
+    }
+    .top-section .caption {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .about .about-shap{
+        background: none;
+    }
+    .about-shap::before{
+        display: none;
+    }
+    .left-about-content h2 {
+        font-size: 24px;
+        line-height:28.8px;
+       }
+    .left-about-content {
+        margin-top:0;
+    }   
+    .left-about-content .text-block {
+        padding-right: 4px;
+        font-size: 14px;
+        line-height: 22.4px;
+    }
+    .right-about-content {
+      margin-left: 0px;
+    }
+      .right-about-content .shedule-list-item span{
+       font-size: 14px;
+      }  
+      .right-about-content .shedule {
+      padding-bottom: 15px;
+    }
+    
+    /* end about sec */
+    .department li button p {
+        font-size: 14px;
+    }
+    .department .tab-content .tab-pane .department-content h2 {
+        font-size: 24px;
+       margin-bottom: 8px;
+        
+    }
+    .department .tab-content .tab-pane .department-content {
+        margin-top: 1.5rem;
+    }
+    .department .tab-content .tab-pane .department-content p:nth-of-type(2) {
+         font-size: 14px;
+         margin-bottom: 32px;
+         margin-top: -3px;
+    }
+    .department .tab-content .tab-pane .department-content a {
+       font-size: 14px;
+       padding: 12px 21px;
+    }
+    .appointment .shape1{
+        width: 36%;
+       }
+    .doctors .member-details .member-designation {
+        font-size: 14px;
+    }
+ .logo-carousel .logo-div img{
+    width: 90%;
+ }
+ .logo-carousel .blue-box img {
+  width: 80%;
+ }
+ .logo-carousel .green-box img{
+    width: 80%;
+   }
+   .contact .shape1:nth-of-type(1) img {
+    width: 70%;
+} 
+footer .main-footer .base {
+    font-size: 14px;
+}
+footer .main-footer .last-footer-list p {
+    font-size: 14px;
+}
+.last-footer-list span {
+    color:#666666;
+    font-size: 14px !important;
+}
+  footer .main-footer .last-footer-list span {
+    margin-right: 3px;
+  }
+footer .main-footer .footer-title {
+    margin-bottom: 14px;
+    padding-bottom: 9px;
+}
+footer .main-footer .social-btn {
+    margin-top: 0px;
+}
+    footer .main-footer .last-footer-list br{
+     display:inherit;
+  } 
+}
+
+@media(max-width:767px){
+    .header {
+        background-position-x: -75px;
+        background-repeat: no-repeat;
+    }
+    .header .header-content h1 {
+        font-size: 40px;
+        line-height: 54px;
+    }
+    .header .header-content p {
+        /* width: 95%; */
+        font-size: 15px;
+        line-height: 22px;
+    }
+   
+   /* end header & navbar */
+   .title h2{
+    line-height: 33.6px;
+     }
+     .title-logo::before {
+        width: 9%;
+        left: 54%;
+    }
+    .title-logo::after{
+        width: 9%;
+        left:37%;
+    }
+    
+    .right-about-content .call-info{
+        line-height: 22px;
+    }
+     .left-about-content .text-block {
+        padding-right: 2px;
+    }
+    /* end about sec */
+    .department li button p {
+        font-size: 12px;
+    }
+    .department li button svg {
+        width: 43px;
+        height: 43px;
+    }
+    .department .nav-pills li {
+        width: 15%;
+    }
+    .department .tab-content .tab-pane .department-content p:nth-of-type(2) {
+        font-size: 14px;
+        margin-bottom: 33px;
+    }
+    .department .tab-content .tab-pane .department-content p:nth-of-type(1) {
+        margin-top: -2px;
+    }
+    .appointment .shape1{
+        width: 35%;
+       }
+    .pricing .pricing-info{
+        width: 91%;
+        margin-left: 5%;
+    }
+}
+ 
+@media (max-width:575px){
+    .header {
+        /* background-position-x: 71%;
+        background-position-y: -42%; */
+        background-position-x: -1109px;
+        background-position-y: 61px;
+        background-repeat: no-repeat;
+    }
+    .header .header-content h1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .header .header-content p {
+        line-height: 21px;
+    }
+    .navbar{
+        height: 65px;
+    }
+       /* end header & navbar */
+    .title-logo::before{
+        width: 8%;
+        left: 54%;
+    }
+    .title-logo::after{
+        width: 8%;
+        left:38%;
+    }
+    .caption br {
+        display: none;
+    }   
+    .department li button p {
+        font-size: 8px;
+    }
+    .department li button svg {
+        width: 40px;
+        height: 40px;
+    }
+    .department .nav-pills li {
+        width: 15%;
+    }
+    .department .tab-content .tab-pane .department-content p:nth-of-type(2) {
+        font-size: 13px;
+    }
+    .department .tab-content .tab-pane .department-content p:nth-of-type(1) {
+       font-size:13px;
+    }
+    .department .tab-content .tab-pane .department-content a {
+        font-size: 13px;
+        padding: 11px 18px;
+    }
+    .width50ExtraSmall{
+        width: 50%;
+    }
+    .doctors .member-overlay ul {
+     bottom: 0px;
+    }
+    .doctors .member-img .doctor-link {
+        height: 30px;
+        width: 30px;
+    }
+    .doctors .member-img .doctor-link {
+        top: 5px;
+        right: 5px;}
+        .opinions .content .st-quote {
+            bottom: -25px;
+            font-size: 53px;
+    }
+
+    .pricing .pricing-info {
+            width: 75%;
+            margin-left: 12%;
+    }
+    .logo-carousel .logo-div{
+        width: 35%;
+    }
+    .logo-carousel .main-div{
+        justify-content: center;
+    display: flex;
+    }
+    .questions img {
+        width: 397px;
+    }
+    .pricing .pricing-head h2 {
+    font-size: 50px;
+    }
+    .questions img {
+        width: 268px;
+    }
+    footer .main-footer .footer-title {
+    font-size: 18px;
+}
+}
+ 
+@media (max-width:454px){
+    .doctors .member-overlay ul {
+        font-size: 18px;
+        bottom: 0px;
+    }
+    .doctors .member-overlay ul li {
+        margin: 0 7px;
+    }
+    .doctors .member-img .doctor-link {
+        height: 27px;
+        width: 27px;
+    }
+    .doctors .member-details a {
+      font-size: 16px;
+   }
+   .doctors .member-details .member-designation {
+    font-size: 13px;
+    }
+    .pricing .pricing-info {
+        width: 70%;
+    }
+    .pricing .pricing-head h2 {
+    font-size: 38px;
+}
+}
+ @media (max-width:335px){
+    .header{
+        background-repeat: no-repeat;
+    }
+.shedule-list-item span:nth-of-type(2){
+  display:flex !important;
+  position: static !important;
+}
+.right-about-content .shedule h2 {
+    font-size: 22px;
+    text-align: center;
+}
+.right-about-content .call-info span , .right-about-content .call-info p{
+    font-size: 13px;
+}
+.title-logo::before {
+    width: 20%;
+    left: 58%;
+}
+.title-logo::after {
+    width: 20%;
+    left: 22%;
+}
+.department li button p {
+    font-size: 6px;
+}
+.department li button svg {
+    width: 35px;
+    height: 35px;
+}
+.doctors .member-overlay ul li {
+    margin: 0 5px;
+}
+.doctors .member-overlay ul {
+    font-size: 17px;
+    bottom: -8px;
+}
+.doctors .member-details a {
+    font-size: 14px;
+ }
+ .doctors .member-details .member-designation {
+  font-size: 11px;
+  }
+  .pricing .pricing-head h2 {
+    font-size: 53px;
+}
+.pricing .pricing-head h2 {
+    font-size: 36px;
+}
+.questions img {
+    width: 200px;
+}
+}
+ 
