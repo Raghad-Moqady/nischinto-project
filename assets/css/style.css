@@ -98,8 +98,8 @@ padding-right:0 ;
   color: #111;
  }
  /* end top-nav */
- .navbar{
-  background-color: rgba(255, 255, 255, 0.9);
+ .navbar , .navbar-collapse{
+  background-color: white;
  }
  .navbar .nav-item {
   margin-left: 37px;
@@ -115,6 +115,10 @@ padding-right:0 ;
  .navbar .nav-item a.active {
  color: var(--main-color);
  border-bottom: 2px solid var(--main-color);
+ }
+ /* js */
+ .navbarScroll{
+  background-color: whitesmoke;
  }
  /* end navbar */
  .header{
