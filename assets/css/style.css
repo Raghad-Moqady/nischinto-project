@@ -111,7 +111,7 @@ padding-right:0 ;
   color: #666;
   }
  .navbar .nav-item:hover a{
-  color: #111111;
+ color: var(--main-color);
  }
  .navbar .nav-item a.active {
  color: var(--main-color);
