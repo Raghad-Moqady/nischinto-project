@@ -42,5 +42,12 @@ window.addEventListener("scroll",(e)=>{
       }
     })
 })
+//////////////////////////////////////////////////////////////////////
+// backtotop-icon 
+const backToTopIcon= document.querySelector(".backtotop-icon");
+
+backToTopIcon.addEventListener("click", () => {
+  window.scrollTo(0, 0);
+});
 
  
