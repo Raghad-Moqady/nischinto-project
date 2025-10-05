@@ -49,5 +49,82 @@ const backToTopIcon= document.querySelector(".backtotop-icon");
 backToTopIcon.addEventListener("click", () => {
   window.scrollTo(0, 0);
 });
+/////////////////////////////////////////////////////////////////////
+// Modal : 
+// All imgs Modal
+const all_imgs= Array.from(document.querySelectorAll(".all_imgs .gallery-img"));
+const my_modal = document.querySelector(".my_modal");
+const modal_img= document.querySelector(".modal_img ");
+const close_icon= document.querySelector(".close_icon");
+const left_arrow=document.querySelector(".left_arrow");
+const right_arrow=document.querySelector(".right_arrow");
+let current_index;
+const page_num=document.querySelector(".page_num");
 
- 
+
+const showModal=()=>{
+    my_modal.classList.add("show_modal");
+}
+
+const putImgInModal=(imgSrc)=>{
+   modal_img.setAttribute("src",imgSrc);
+}
+
+const hideModal=()=>{
+    my_modal.classList.remove("show_modal");
+}
+
+const toNextImg=()=>{
+    current_index=(current_index+1)%all_imgs.length;
+    // عبارة عن رابط الصورة اللاحقة
+    putImgInModal(all_imgs[current_index].querySelector("img").getAttribute("src"));
+    page_num.innerHTML=`${current_index+1} / ${all_imgs.length}`;
+}
+
+const toPreviousImg=()=>{
+    current_index--;
+    if (current_index==-1){
+      current_index=all_imgs.length-1;
+    }
+    putImgInModal(all_imgs[current_index].querySelector("img").getAttribute("src"));
+    page_num.innerHTML=`${current_index+1} / ${all_imgs.length}`;
+}
+
+
+all_imgs.forEach((gallery_img)=>{
+gallery_img.addEventListener("click",(e)=>{
+  showModal();
+  putImgInModal(e.target.querySelector("img").getAttribute("src"));
+  current_index= all_imgs.indexOf(e.target);
+  page_num.innerHTML=`${current_index+1} / ${all_imgs.length}`;
+})
+})
+
+close_icon.addEventListener("click",()=>{
+   hideModal();
+})
+right_arrow.addEventListener("click",()=>{
+  toNextImg();
+})
+left_arrow.addEventListener("click",()=>{
+toPreviousImg();
+})
+
+document.addEventListener("click",(e)=>{
+if (e.target.classList.contains("my_modal")){
+        hideModal();
+    }
+});
+
+// keyboard events:
+document.addEventListener("keydown",(e)=>{
+if (e.code=="ArrowRight"){
+    toNextImg();
+}
+else if (e.code=="ArrowLeft"){
+    toPreviousImg();
+}
+else if( e.code=="Escape"){
+    hideModal();
+}
+});

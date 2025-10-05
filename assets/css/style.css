@@ -762,6 +762,81 @@ color: rgb(102,102,102);
 } */
 
 /* end gallary sec */
+/* start js modal section */
+
+ .my_modal{
+    background-color: rgba(3, 8, 12, 0.667);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; 
+    /* z-index: 2; */
+    
+    opacity: 0;
+    visibility: hidden;
+    
+    transition: all .6s;
+    backdrop-filter: blur(7px);
+ }
+.show_modal{
+    opacity: 1;
+    visibility:visible;
+    z-index: 2;
+ }
+ .modal_content{
+    width: 50%;
+    height: 70%;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    top: 20%;
+    margin: auto;
+    user-select: none;
+ }
+ .left_arrow , .right_arrow, .close_icon { 
+    width:40px ;
+    height: 40px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+     position: absolute;
+     cursor: pointer;
+ }
+ .close_icon{
+    top: 7px;
+    right: 7px;
+    color: var(--main-color);
+    font-size:xx-large;
+ }
+ .left_arrow, .right_arrow{
+    color: whitesmoke;
+    background-color: var(--main-color) ;
+ }
+ .right_arrow{
+    top: 50%;
+    right: 5%;
+ }
+ .left_arrow{
+    top: 50%;
+    left: 5%;
+ }
+ .page_num{
+   position: absolute;
+   bottom: 7%;
+   left: 47%;
+   color: var(--main-color);
+   font-size:large;
+   font-weight: bold;
+ }
+
+/* end js modal section  */
 /* start procedures sec  */
 
 .procedures {
